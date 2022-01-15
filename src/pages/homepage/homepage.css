@@ -1,0 +1,49 @@
+
+.homepage {
+	width: 100%;
+	height: 100vh;
+	color : snow;
+	background-color: #2bbed3;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.heading{
+	margin-bottom: 50px;
+	font-size: 24px;
+	font-weight: normal;
+}
+.cal-container {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.keypad-container{
+	margin: 20px;
+	width:200px;
+	flex-wrap:wrap;
+	display:flex;
+	align-content: center;
+	
+}
+.submit {
+	width: 70%;
+	height: 35px;
+	color:snow;
+	font-size: large;
+	font-weight: bold;
+	background-color: transparent;
+	border:1px solid snow;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.submit:hover{
+	background-color: snow;
+	color:#2bbed3;
+}
+.disabled{
+	color:rgb(83, 164, 179);
+	pointer-events: none;
+}

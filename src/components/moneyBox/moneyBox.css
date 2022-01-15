@@ -1,0 +1,21 @@
+.moneybox{
+  width: 220px;
+  height:50px;
+  text-align: center;
+  background-color:transparent;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+img{
+  width: 50px;
+  height: 30px;
+}
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: snow;
+  display: block;
+}
