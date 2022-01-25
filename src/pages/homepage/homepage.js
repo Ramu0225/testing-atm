@@ -63,7 +63,7 @@ function Homepage() {
 						<DialPadButton keypadvalue={"0"} onClickHandler={onButtonClick} />
 					</div>
 					<button
-						className={`submit ${value ? "" : "disabled"}`}
+						className={`submit ${Number(value) ? "" : "disabled"}`}
 						onClick={calculateHandler}
 					>
 						submit
